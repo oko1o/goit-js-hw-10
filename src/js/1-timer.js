@@ -20,6 +20,8 @@ const timerElements = {
   spanSeconds: document.querySelector('span[data-seconds]'),
 };
 
+timerElements.startBtn.disabled = true;
+
 const options = {
   enableTime: true,
   time_24hr: true,

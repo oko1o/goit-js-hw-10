@@ -40,7 +40,7 @@ form.addEventListener('submit', event => {
       iziToast.error({
         title: 'Error',
         message: `Rejected promise in ${delay}ms`,
-        topRight: topRight,
+        position: 'topRight',
       });
     });
   form.reset();
